@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30517.126
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "test\UnitTests\UnitTests.csproj", "{243B4F2A-E25A-4151-8AB2-5E89341B8E2A}"
 EndProject
@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6CC8
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\build.yml = .github\workflows\build.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLib.Combinatorics", "FLib.Combinatorics\FLib.Combinatorics.csproj", "{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,18 @@ Global
 		{0A6FE84B-697A-4C83-9083-D9A94F2A63BE}.Release|x64.Build.0 = Release|Any CPU
 		{0A6FE84B-697A-4C83-9083-D9A94F2A63BE}.Release|x86.ActiveCfg = Release|Any CPU
 		{0A6FE84B-697A-4C83-9083-D9A94F2A63BE}.Release|x86.Build.0 = Release|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Debug|x64.Build.0 = Debug|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Debug|x86.Build.0 = Debug|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Release|x64.ActiveCfg = Release|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Release|x64.Build.0 = Release|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Release|x86.ActiveCfg = Release|Any CPU
+		{A7FA63BA-A5A7-4616-92BE-7AE1D184295E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
